@@ -18,7 +18,7 @@ export default function App() {
   };
 
   React.useEffect(() => {
-    fetch('http://cdn.cur.su/api/latest.json')
+    fetch('https://cdn.cur.su/api/latest.json')
       .then((res) => res.json())
       .then((json) => {
         // setRates(json.rates);
